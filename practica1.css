@@ -1,0 +1,24 @@
+.container{
+    border: 5px solid #e1bee7;
+    background-color: #fff1ff;
+    display: grid;
+    grid-template-columns: 150px 150px ;
+    grid-template-rows: 150px 150px; 
+    place-content: center;
+   gap: 15px;
+    height: 600px;
+   
+}
+.item{
+   
+    background-color: #add901;
+   
+    display: grid;
+    
+}
+.subitem{
+    background-color: #61a81e;
+    place-self: end;
+    width:30px ;
+    height: 50px;
+}
